@@ -1,5 +1,5 @@
 {
   "nodes": [
-    "src/TestNode.js"
+    "src/TestComponent.js"
   ]
 }
