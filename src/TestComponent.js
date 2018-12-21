@@ -13,8 +13,8 @@ export default class TestComponent extends Component {
   }
   
   worker(node, inputs, outputs) {
-    if (typeof inputs['imageIn'] !== 'undefined') {
-      const image = inputs['imageIn'];
+    const image = inputs['imageIn'].length ? inputs['imageIn'][0] : undefined;
+    if (typeof image !== 'undefined') {
       outputs['imageOut'] = image.cloneNode(true);
     }
   }
