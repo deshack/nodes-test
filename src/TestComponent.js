@@ -9,7 +9,7 @@ export default class TestComponent extends Component {
     const input = new Input('image', 'Image', imageSocket);
     const output = new Output('image', 'Image', imageSocket);
   
-    return node.addOutput(output);
+    return node.addInput(input).addOutput(output);
   }
   
   worker(node, inputs, outputs) {
