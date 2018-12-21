@@ -1,4 +1,5 @@
-import {Component, Input, Output, imageSocket} from '/dist/js/modules.js';
+import {Component, Input, Output} from '/dist/js/modules.js';
+import {imageSocket} from '/dist/js/app.js';
 
 export default class TestComponent extends Component {
   constructor() {
