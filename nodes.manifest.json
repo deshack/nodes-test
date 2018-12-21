@@ -1,5 +1,8 @@
 {
   "nodes": [
-    "src/TestComponent.js"
+    {
+      "name": "Test",
+      "path": "src/TestComponent.js" 
+    }
   ]
 }
