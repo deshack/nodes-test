@@ -6,10 +6,11 @@ export default class TestComponent extends Component {
   }
   
   builder(node) {
-    const input = new Input('imageIn', 'Image', imageSocket);
+    //const input = new Input('imageIn', 'Image', imageSocket);
     const output = new Output('imageOut', 'Image', imageSocket);
   
-    return node.addInput(input).addOutput(output);
+    return node//.addInput(input)
+      .addOutput(output);
   }
   
   worker(node, inputs, outputs) {
